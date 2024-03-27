@@ -35,7 +35,7 @@ public class Main {
         for (int payment : payments3) {
             sumPayments2 += payment;
         }
-        meanPayment = sumPayments2 / payments3.length;
+        meanPayment = (double) sumPayments2 / payments3.length;
         System.out.println("Средняя сумма трат за месяц составила " + meanPayment + " рублей");
         System.out.println();
         //Задача 4
